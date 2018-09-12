@@ -1,0 +1,34 @@
+.send{
+    -fx-background-color: rgba(102,102,102,0.8);
+    -fx-text-fill:#fff;
+}
+
+.send:hover{
+    -fx-background-color:rgba(0,0,0,0);
+    -fx-text-fill: rgba(102,102,102,0.8);
+}
+
+.input:focused{
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 5, 4, 3;
+}
+
+.input .content{
+    -fx-border-color: rgba(102,102,102,1);
+    -fx-background-color: #fff;
+}
+
+.show{
+    -fx-background-color: rgba(102,102,102,0.8);
+}
+
+.vbox:focused{
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 5, 4, 3;
+}
+
+.vbox{
+    -fx-background-color: rgba(0,0,0,0);
+}

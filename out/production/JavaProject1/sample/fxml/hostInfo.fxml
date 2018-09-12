@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgba(102,102,102,0.8);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.hostInfo">
+    <children>
+        <Label alignment="CENTER" layoutX="126.0" layoutY="187.0" prefHeight="27.0" prefWidth="54.0" style="-fx-text-fill: #fff;" text="Port">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Button styleClass="btn" fx:id="hosting" layoutX="425.0" layoutY="187.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="80.0" stylesheets="@../Css/info.css" text="Hosting" />
+        <TextField onAction="#onEnter" fx:id="port_Number" layoutX="195.0" layoutY="187.0" prefHeight="27.0" prefWidth="210.0" styleClass="input" stylesheets="@../Css/info.css" />
+    </children>
+</AnchorPane>

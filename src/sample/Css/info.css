@@ -1,0 +1,16 @@
+.input{
+    -fx-background-color:rgba(102,102,102,0);
+    -fx-border-color:#fff;
+    -fx-text-fill: #fff;
+}
+
+.btn{
+    -fx-background-color: rgba(102,102,102,0);
+    -fx-border-color:#fff;
+    -fx-text-fill: #fff;
+}
+
+.btn:hover{
+    -fx-background-color: rgba(255,255,255,0.9);
+    -fx-text-fill : rgba(102,102,102,1);
+}

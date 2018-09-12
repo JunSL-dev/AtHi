@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.collections.FXCollections?>
+<?import java.net.URL?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="1200.0" style="-fx-background-image: url('../image/bg.jpg');" styleClass="anchor" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.MainController">
+    <stylesheets>
+        <URL value="@../Css/main.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="764.0" fitWidth="1213.0" layoutY="-10.0" style="-fx-opacity: 1;">
+         <image>
+            <Image url="@../image/bg.gif" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#666666" height="200.0" layoutX="399.0" layoutY="225.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 0.8;" width="423.0" />
+      <Label layoutX="447.0" layoutY="265.0" prefHeight="34.0" prefWidth="98.0" text="Nick" textFill="WHITE" />
+      <TextField id="nick" fx:id="nick" layoutX="577.0" layoutY="268.0" styleClass="input" stylesheets="@../Css/main.css" />
+      <ComboBox styleClass="combo" fx:id="lang" layoutX="576.0" layoutY="356.0" prefHeight="27.0" prefWidth="172.0" promptText="Select" stylesheets="@../Css/main.css">
+          <items>
+              <FXCollections fx:factory="observableArrayList">
+                  <String fx:value="English" />
+                  <String fx:value="Japanese" />
+                  <String fx:value="Korean" />
+                  <String fx:value="Chinese" />
+              </FXCollections>
+          </items>
+         <styleClass>
+            <String fx:value="input" />
+            <String fx:value="combo" />
+         </styleClass>
+      </ComboBox>
+      <Label layoutX="446.0" layoutY="352.0" prefHeight="34.0" prefWidth="98.0" text="Country" textFill="WHITE" />
+      <Button fx:id="host" layoutX="417.0" layoutY="442.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="79.0" styleClass="btn" stylesheets="@../Css/main.css" text="Host" textFill="WHITE" />
+      <Button fx:id="join" layoutX="717.0" layoutY="442.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="79.0" styleClass="btn" stylesheets="@../Css/main.css" text="Join" />
+      <Line endX="130.0" layoutX="644.0" layoutY="308.0" startX="-200.0" stroke="WHITE" style="-fx-stroke: #fff;" />
+      <Line endX="130.0" layoutX="645.0" layoutY="395.0" startX="-200.0" style="-fx-stroke: #fff;" />
+   </children>
+</AnchorPane>

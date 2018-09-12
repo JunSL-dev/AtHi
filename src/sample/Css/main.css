@@ -1,0 +1,25 @@
+.btn{
+    -fx-background-color:rgba(102,102,102,0.8);
+    -fx-border-color:#000;
+    -fx-text-fill:#fff;
+}
+
+.btn:hover{
+    -fx-background-color:rgba(0,0,0,0.7);
+    -fx-border-color:rgba(0,0,0,0);
+}
+
+.input{
+    -fx-background-color:rgba(0,0,0,0);
+    -fx-border-color:#fff;
+}
+
+.combo .list-cell{
+    /*-fx-prompt-text-fill: #fff;*/
+    -fx-text-fill: #fff;
+    -fx-background-color: rgba(102,102,102,0.8);
+}
+
+#nick{
+    -fx-text-fill:#fff;
+}

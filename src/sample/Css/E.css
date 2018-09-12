@@ -1,0 +1,11 @@
+.close{
+    -fx-background-color:rgba(0,0,0,0);
+    -fx-border-color: #666;
+    -fx-border-radius: 3px;
+}
+
+.close:hover{
+    -fx-background-color: red;
+    -fx-border-color:red;
+    -fx-text-fill:#fff;
+}
